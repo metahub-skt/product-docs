@@ -1,0 +1,12 @@
+# GitHub Pages(Jekyll) 설정 — 공개 사이트 https://metahub-skt.github.io/product-docs/
+# 이 디렉터리(docs/product/site/)가 유일한 원본이다. GitHub 리포 metahub-skt/product-docs 는 출력물이며
+# scripts/ci/publish-product-docs.sh 가 통째로 덮어쓴다 — 거기서 직접 고치지 않는다.
+title: MetaHub
+description: 데이터 레이크를 위한 통합 메타데이터·카탈로그·정책 플랫폼 — 릴리즈 노트
+lang: ko
+# GitHub Pages 가 기본 제공하는 테마(별도 설치 없음). 레이아웃 이름은 default.
+theme: jekyll-theme-cayman
+markdown: kramdown
+# .md 는 발행 스크립트가 front matter 를 넣어 올리므로 그대로 렌더된다.
+exclude:
+  - README.md
