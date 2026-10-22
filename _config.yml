@@ -7,6 +7,11 @@ lang: ko
 # GitHub Pages 가 기본 제공하는 테마(별도 설치 없음). 레이아웃 이름은 default.
 theme: jekyll-theme-cayman
 markdown: kramdown
-# .md 는 발행 스크립트가 front matter 를 넣어 올리므로 그대로 렌더된다.
+# .md 는 발행 스크립트가 front matter(layout 만)를 넣어 올리므로 그대로 렌더된다.
+# GitHub Pages 기본 플러그인 jekyll-titles-from-headings 는 front matter 에 title 이 없으면 첫 H1 을 page.title 로
+# 삼고, cayman 헤더(project-name)가 그것을 그대로 쓴다 — 상세 페이지에서 위 헤더와 아래 H1 이 같은 글자로
+# 두 번 보이던 실제 원인(2026-10-22). 끄면 헤더는 site.title("MetaHub") 로 떨어지고 본문 H1 만 페이지 제목이 된다.
+titles_from_headings:
+  enabled: false
 exclude:
   - README.md
