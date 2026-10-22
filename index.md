@@ -1,8 +1,7 @@
 ---
 layout: default
-title: "MetaHub"
 ---
-# MetaHub
+# MetaHub란?
 
 데이터 레이크를 위한 통합 메타데이터·카탈로그·정책 플랫폼입니다. 단일 Helm chart 로 메타데이터 플랫폼(DataHub),
 Iceberg REST 카탈로그(Apache Polaris), 정책 엔진(OPAL/OPA), 카탈로그 API 게이트웨이, 관리 콘솔, AI 도구 연동(MCP)을
@@ -10,8 +9,8 @@ Iceberg REST 카탈로그(Apache Polaris), 정책 엔진(OPAL/OPA), 카탈로그
 
 ## Release Notes
 
-최신 릴리즈부터 나열합니다. 각 노트는 What's New · Features · Improvements · Fixes · Known Issues · Breaking Changes ·
-Deprecations · Upgrade Notes 순서입니다.
+최신 릴리즈부터 나열합니다. 각 노트는 What's New · Breaking Changes · Features · Improvements · Fixes · Known Issues ·
+Deprecations · Upgrade Notes 순서입니다. 업그레이드 시 조치가 필요한 변경은 요약 바로 뒤에서 확인할 수 있습니다.
 
 | 버전 | 발행일 | 요약 |
 |---|---|---|
