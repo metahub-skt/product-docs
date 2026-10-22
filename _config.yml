@@ -5,6 +5,8 @@ title: MetaHub
 description: 데이터 레이크를 위한 통합 메타데이터·카탈로그·정책 플랫폼
 lang: ko
 # GitHub Pages 가 기본 제공하는 테마(별도 설치 없음). 레이아웃 이름은 default.
+# 레이아웃은 _layouts/default.html 이 테마 원본을 덮는다(타이틀 홈 링크·브레드크럼), 스타일은 assets/css/style.scss 가
+# 테마를 import 한 뒤 덧붙인다 — 테마 버전을 바꾸면 두 파일을 원본과 다시 맞춘다.
 theme: jekyll-theme-cayman
 markdown: kramdown
 # .md 는 발행 스크립트가 front matter(layout 만)를 넣어 올리므로 그대로 렌더된다.

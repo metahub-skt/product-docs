@@ -1,0 +1,47 @@
+---
+---
+// cayman 테마 스타일을 그대로 가져온 뒤 사이트 전용 규칙만 덧붙인다 (_layouts/default.html 참고).
+// 이 파일은 .md 가 아니라서 발행 스크립트가 front matter 를 넣어 주지 않는다 — 위의 빈 front matter 가 있어야 Jekyll 이 scss 로 처리한다.
+@import "jekyll-theme-cayman";
+
+// 1) 상단 타이틀 홈 링크 — 헤더 글자색(흰색)을 그대로 쓰고 밑줄은 hover 때만.
+.project-name a {
+  color: inherit;
+  text-decoration: none;
+}
+.project-name a:hover,
+.project-name a:focus {
+  text-decoration: underline;
+}
+
+// 2) 브레드크럼 — 본문 글자보다 한 단계 작게, 현재 위치는 링크 없이 진하게.
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 1.5rem;
+  font-size: 0.9rem;
+  color: #606c71;
+}
+.breadcrumb a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.breadcrumb-sep {
+  opacity: 0.6;
+}
+.breadcrumb-current {
+  font-weight: 700;
+  color: #159957;
+}
+// 홈 아이콘 옆 글자는 스크린리더용 — 화면에는 아이콘만.
+.breadcrumb-home span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
