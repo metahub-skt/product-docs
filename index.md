@@ -14,7 +14,7 @@ Deprecations · Upgrade Notes 순서입니다. 업그레이드 시 조치가 필
 
 | 버전 | 발행일 | 요약 |
 |---|---|---|
-| [0.5.10](releases/v0.5.10.md) | 2026-11-18 | MCP 서버 워커 수 설정 · chart 의 Apache Polaris 1.7.0 정렬·확장 선택 설정 · Polaris 뷰 자동 등록 · 권한 데이터 전담 컴포넌트(선택 설정) · 정책 클라이언트 자동 확장 기준 선택 |
+| [0.5.10](releases/v0.5.10.md) | 2026-11-19 | MCP 서버 워커 수 설정 · chart 의 Apache Polaris 1.7.0 정렬·확장 선택 설정 · Polaris 뷰 자동 등록 · 권한 데이터 전담 컴포넌트(선택 설정) · 정책 클라이언트 롤링 배포 중 권한 확인 실패 수정 |
 | [0.5.9](releases/v0.5.9.md) | 2026-11-09 | 정책 엔진 OPAL 0.9.9(브로드캐스트 자동 복구) · 외부 OPA 컨테이너 선택 설정 · MCP 요청 상세 이력 · 등록·업로드 오류 코드 세분화 |
 | [0.5.8](releases/v0.5.8.md) | 2026-10-22 | 관리 콘솔 페이징·전역 검색·접근 제어 보완 · Polaris 운영 설정(graceful shutdown·오토스케일·LoadBalancer) values 지원 |
 | [0.5.6](releases/v0.5.6.md) | 2026-10-15 | 빈 PostgreSQL 에서 chart 만으로 Polaris 설치 가능(dbInit, 기본 꺼짐) · Catalog Gateway 요청 이력 로그 누락 수정 |
